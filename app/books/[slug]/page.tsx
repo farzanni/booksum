@@ -23,10 +23,11 @@ export default async function BookPage({
 
       <div className="detail-head">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={book.cover} alt={book.title} />
+        <img src={book.cover} alt={`${book.titleFa} اثر ${book.author}`} />
         <div className="info">
-          <h1>{book.title}</h1>
-          <div className="author">{book.author}</div>
+          <h1 lang="fa">{book.titleFa}</h1>
+          <div className="author" lang="fa">{book.author}</div>
+          <div className="title-en">{book.title}</div>
         </div>
       </div>
 
