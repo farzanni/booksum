@@ -13,11 +13,11 @@ export default function HomePage() {
         {books.map((book) => (
           <Link key={book.slug} className="card" href={`/books/${book.slug}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="cover" src={book.cover} alt={`${book.titleFa} اثر ${book.author}`} loading="lazy" />
+            <img className="cover" src={book.cover} alt={`${book.titleFa} اثر ${book.authorFa}`} loading="lazy" />
             <div className="meta">
               <div className="title" lang="fa">{book.titleFa}</div>
-              <div className="author" lang="fa">{book.author}</div>
-              <div className="title-en">{book.title}</div>
+              <div className="author" lang="fa">{book.authorFa}</div>
+              <div className="title-en">{book.title} — {book.author}</div>
             </div>
           </Link>
         ))}

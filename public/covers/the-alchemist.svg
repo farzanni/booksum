@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" dir="rtl">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+  <rect width="400" height="600" fill="url(#g)"/>
+  <rect x="22" y="22" width="356" height="556" fill="none" stroke="#f5d38b" stroke-width="2" rx="6"/>
+  <text x="200" y="310" fill="#f5d38b" font-size="30" font-family="serif" font-weight="bold" text-anchor="middle" direction="rtl" unicode-bidi="embed">کیمیاگر</text>
+  <text x="200" y="364" fill="#cbd5e1" font-size="16" font-family="sans-serif" text-anchor="middle" direction="rtl" unicode-bidi="embed">پائولو کوئلیو</text>
+</svg>
